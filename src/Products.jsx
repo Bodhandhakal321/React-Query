@@ -18,8 +18,8 @@ const Products = () => {
     } = useQuery({
         queryKey:["products"],
          queryFn:fetchProdcuts,
-        staleTime:10000
-        })
+        // staleTime:10000
+        });
 
 
 
